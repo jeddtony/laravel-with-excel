@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('users/export', 'UsersController@export');
 
 Route::get('users/view', 'UsersController@exportView');
+
+Route::get('users/import', 'UsersController@import');
